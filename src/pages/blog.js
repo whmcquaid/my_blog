@@ -21,7 +21,7 @@ const BlogPage = ({ data }) => {
 }
 export const query = graphql`
   query {
-    allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+    allMdx {
       nodes {
         frontmatter {
           title

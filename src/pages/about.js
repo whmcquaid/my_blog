@@ -11,7 +11,8 @@ const AboutPage = () => {
         src="https://i.ibb.co/s9t0QSn/Optimized-Head-Shot.jpg"
         style={{
           maxWidth: '50%',
-          borderRadius: '25px'
+          borderRadius: '25px',
+          textAlign: 'center',
         }}
       />
     <p>Hi there! I'm the proud creator of this site, which I built while learning Gatsby.

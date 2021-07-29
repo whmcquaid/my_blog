@@ -8,7 +8,7 @@ const AboutPage = () => {
     <Layout pageTitle="About Me">
      <StaticImage
         alt="William, the creator of this blog, in a Cleveland Browns NFL hat, with a smile."
-        src="https://i.ibb.co/s9t0QSn/Optimized-Head-Shot.jpg"
+        src="../images/Optimized-HeadShot.JPG"
         style={{
           maxWidth: '50%',
           borderRadius: '25px',

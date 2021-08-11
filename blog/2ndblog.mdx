@@ -1,7 +1,25 @@
 ---
-title: 'My Second Blog'
-date: '2021-07-28'
+title: 'A Bug'
+date: '2021-08-10'
 ---
 
-In this blog I would like to talk about one of my favorite things.
-_Writing Code_ for me has become an escape and a way to have fun solving problems.
+Yesterday, I spent an hour staring at the errors my code was creating hopelessly trying to
+figure out what typescript was trying to tell me. You see, I had built my portfolio site in
+typescript and react because I love all the code suggestions and error prevention of typescript and
+how easy it can be to be to get up and running with react. Originally my project
+component was about 200 lines of code because, well, I just wanted to get something up and running.
+Since I was able to get something up and hosted on vercel for free and it had been a minute since I had
+looked at the code at all, I decided to go back and refactor that component specifically to modularize
+the content, moving the data from that .js file into separate files. I had about 20-30 lines that repeated
+for each project so I was able to reduce all that down to just a few lines with a .map function. So,
+back to the error I stared at and could not figure out. Typescript was telling me I needed a comma
+instead of a period for my .map function. So, knowing that was not what needed to happen, I began
+googling. My searches to find my specific error with a .map function didn't yield any results so I tried
+moving various curly braces and parenthesis around. I was able to create brand new errors, but nothing I did
+got it working. It was not until I asked my mentor, Amit, for help that he
+was able to spot the mistake. Low and behold I had put the arguments for my .map function in the wrong order.
+Simple mistake. It was easy to spot after looking at the MDN docs for array.map. This is just one example of
+how easy it can be to get stuck when working by oneself. The lesson here for me is that I may need the fresh set
+of eyes to spot the simple mistakes at times. This
+is not the first time for this type of bug and likely won't be the last. This simple bug was humbling learning experience for me. Now, my project
+component is much more easily readable and concise. I am happy to say I got it from over 200 to just 22 lines.
